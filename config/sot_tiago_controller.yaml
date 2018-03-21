@@ -1,0 +1,22 @@
+sot_controller:
+  type: sot_controller/RCSotController
+  joints:
+    - torso_lift_joint
+    - arm_1_joint
+    - arm_2_joint
+    - arm_3_joint
+    - arm_4_joint
+    - arm_5_joint
+    - arm_6_joint
+    - arm_7_joint
+    - gripper_left_finger_joint
+    - gripper_right_finger_joint
+    - head_1_joint
+    - head_2_joint
+
+  base_imu_sensor: base_imu
+  # TODO
+  #check_mode: False
+
+  # TODO
+  #actuators:
